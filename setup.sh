@@ -62,14 +62,14 @@ sudo fc-cache -vf /usr/share/fonts/X11/misc/
 mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 ## set font to Anonymice Powerline
 
-# rx 480 drivers
-wget --referer="http://support.amd.com" "https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-17.10-446706.tar.xz" amdgpu-pro-17.10-446706.tar.xz
-tar -Jxvf amdgpu-pro-17.10-446706.tar.xz
-cd amdgpu-pro-17.10-446706
-./amdgpu-pro-install -y
-groups
-sudo usermod -a -G video $LOGNAME 
-cd ..
+# rx 480 drivers - only on LTS
+# wget --referer="http://support.amd.com" "https://www2.ati.com/drivers/linux/ubuntu/amdgpu-pro-17.10-446706.tar.xz" amdgpu-pro-17.10-446706.tar.xz
+# tar -Jxvf amdgpu-pro-17.10-446706.tar.xz
+# cd amdgpu-pro-17.10-446706
+# ./amdgpu-pro-install -y
+# groups
+# sudo usermod -a -G video $LOGNAME
+# cd ..
 
 # some utilites
 ## neofetch
@@ -87,7 +87,7 @@ sudo apt -y install -qq -o=Dpkg::Use-Pty=0 -qq -o=Dpkg::Use-Pty=0 atom
 # install gnome extensions
 sudo wget -O /usr/local/bin/gnomeshell-extension-manage "https://raw.githubusercontent.com/NicolasBernaerts/ubuntu-scripts/master/ubuntugnome/gnomeshell-extension-manage"
 sudo chmod +x /usr/local/bin/gnomeshell-extension-manage
-gnomeshell-extension-manage --install --extension-id 826 --version 3.22 
+gnomeshell-extension-manage --install --extension-id 826 --version 3.22
 gnomeshell-extension-manage --install --extension-id 1007 --version 3.20
 gnomeshell-extension-manage --install --extension-id 1031
 gnomeshell-extension-manage --install --extension-id 7
