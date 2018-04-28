@@ -1,0 +1,44 @@
+@import "https://rawgit.com/TripingPC/discord-CSSes/master/status-user-popout.css";
+@import "https://cdn.rawgit.com/Vap0r1ze/Discord-Nitro-Badges/master/nitro.css";
+@import "https://cdn.rawgit.com/Ovyerus/5574873c0725a8600150b5d963b20dcc/raw/b58568d1575f32333eacbfe5fc95c1701bcb516c/discord-buttons-round.css";
+@import "https://cdn.rawgit.com/PikaDude/Discord-Fade-Anims/master/Discord-Fade-Anims.css";
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/theme.css";
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/DiscordInjections.css";
+@import "https://rawgit.com/AlexFlipnote/Discord_Theme/master/assets/statusPopout.css";
+/* @import "https://rawgit.com/Oliyy/Material-Design-Discord/master/theme.css";*/
+@import "https://rawgit.com/jakeoid/33a608c852bf890e361523d245664882/raw/47c999e5c9b12cdf20d7d946f9b3493eff8eae1d/semi-monokai.css";
+/*@import "https://cdn.rawgit.com/martmists/DiscordFonts/master/DiscordFonts.css";*/
+@import "https://raw.githubusercontent.com/Snazzah/BeautifulDiscordSnippets/master/Tooltips/DarkFaders.css";
+/*# tags, https://gallium.typeform.com/to/smWy5Z*/
+.avatar-small[style*="186373210495909889"]+.member-inner .member-username .member-username-inner:after,
+.avatar-large[style*="186373210495909889"]+.comment .username-wrapper .user-name:after {
+content: "Corp";
+background: #fff;
+font-size: 1rem;
+font-weight: 600;
+color: #000!important;
+margin-left: 6px;
+padding: 1px 2px;
+border-radius: 3px;
+text-transform: UPPERCASE;
+vertical-align: bottom;
+line-height: 16px;
+-ms-flex-negative: 0;
+flex-shrink: 0;
+}
+.avatar-small[style*="218455673581600770"]+.member-inner .member-username .member-username-inner:after,
+.avatar-large[style*="218455673581600770"]+.comment .username-wrapper .user-name:after {
+content: "me";
+background: #000;
+font-size: 1rem;
+font-weight: 600;
+color: #FFF!important;
+margin-left: 6px;
+padding: 1px 2px;
+border-radius: 3px;
+text-transform: lowercase;
+vertical-align: bottom;
+line-height: 16px;
+-ms-flex-negative: 0;
+flex-shrink: 0;
+}
