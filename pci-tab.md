@@ -8,4 +8,4 @@
 4. Save and reboot.
 
 A finished product:
-![System Profiler screenshot]()
+![System Profiler screenshot](pci-tab.png)
